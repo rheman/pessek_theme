@@ -1,0 +1,27 @@
+{
+	"name": "pessek/pessek_theme",
+	"version": "4.0",
+	"type": "elgg-plugin",
+	"description": "Theme editor",
+	"keywords": [
+		"elgg", "plugin", "theme"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "pessek_theme"
+	},
+	"require": {
+		"composer/installers": "~2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
