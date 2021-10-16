@@ -17,11 +17,21 @@
 		"installer-name": "pessek_theme"
 	},
 	"require": {
-		"composer/installers": "~2.0"
+		"composer/installers": "^1.0.8",
 	},
 	"autoload": {
 		"psr-0": {
 			"": "classes/"
 		}
-	}
+	},
+	"repositories": [
+		{
+            		"type": "composer",
+            		"url": "https://asset-packagist.org"
+		}
+	],
+        "conflict": {
+                "elgg/elgg": "<4.0"
+        }
+
 }
