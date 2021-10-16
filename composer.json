@@ -17,7 +17,7 @@
 		"installer-name": "pessek_theme"
 	},
 	"require": {
-		"composer/installers": "^1.0.8",
+		"composer/installers": "^1.0.8"
 	},
 	"autoload": {
 		"psr-0": {
